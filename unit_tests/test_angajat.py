@@ -27,4 +27,4 @@ class TestAngajat():
 
     def test_descriere(self):
         assert self.angajat.descriere() == 'Angajat: Mitrescu Mircea, salariu_baza: 4500 lei, ' \
-        'salariu_lunar: 5000, salariu_anual: 60000', 'Error, marire_salariu nu functioneaza corect'
+        'salariu_lunar: 5000, salariu_anual: 60000', 'Error, descrierea nu functioneaza corect'
